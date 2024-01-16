@@ -1,0 +1,49 @@
+/* Header's first nav related styles */
+
+body{
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+header{
+    padding: 20px;
+}
+.logo{
+    width: 30px;
+    margin-right: 5px;
+}
+.dream{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.destiny{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+header nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 8px;
+}
+header nav ul li{
+    margin-right: 10px;
+    color:  #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
