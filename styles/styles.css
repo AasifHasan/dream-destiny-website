@@ -289,3 +289,76 @@ main{
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
 }
+
+/* Hotels and other service related styles */
+
+.why-choose-us-section {
+    margin: 100px auto;
+}
+.section-description {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.section-description p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 0;
+    width: 643px;
+}
+.hotels {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.hotels-services {
+    padding: 32px;
+    width: auto;
+    /* height: 284px; */
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.hotels-services img, .world-class-service img, .best-price img {
+    display: block;
+    width: 70px;
+}
+.world-class-service {
+    padding: 32px;
+    width: auto;
+    /* height: 284px; */
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.best-price {
+    padding: 32px;
+    width: 573px;
+    /* height: 284px; */
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.choose-us-tittle {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.choose-us-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px; 
+}
+.price-guarantee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
