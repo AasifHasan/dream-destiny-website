@@ -362,3 +362,121 @@ main{
     align-items: center;
     margin-top: 24px;
 }
+
+/* Newsletter section related styles */
+
+.newsletter-section {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    padding: 150px 100px;
+    height: 422px;
+    /* border: 1px solid black; */
+    gap: 24px;
+}
+.newsletter-contents {
+    padding: 40px;
+    width: 474px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.newsletter-contents h1 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.newsletter-contents p {
+    width: 350px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.newsletter-contents hr {
+    background: rgba(19, 19, 24, 0.10);
+    width: 393px;
+    height: 1px;
+    border: 0;
+    margin: 24px 0;
+}
+.newsletter-contents input[type="text"], .newsletter-content input [type="email"] {
+    display: block;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-weight: 400;
+    font-size: 16px;
+    padding: 16px;
+    border: 0; 
+    margin-bottom: 10px;
+    width: 393px;
+    height: 52px;
+   
+}
+.newsletter-contents button { 
+    width: 393px;
+    height: 52px;
+    /* border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05); */
+}
+.discounts {
+    width: 672px;
+    border-radius: 16px;
+    background: url('/Images/Rectangle\ 8\ \(1\).png'), lightgray 50% / cover no-repeat;
+}
+.discount-fare { 
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    position: relative;
+    right: -195px;
+    bottom: -253px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}   
+.discount-fare h2 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    margin-top: 4px;
+}
+.discount-fare p {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+/* Footer section related styles */
+
+footer{
+    justify-content: center;
+    align-items: center;
+    height: 402px;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    display: flex;
+}
+footer hr{
+    width: 100%;
+    margin: 20px 0;
+}
+.footer-content{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+.copyright{
+    margin: 40px 0;
+}
