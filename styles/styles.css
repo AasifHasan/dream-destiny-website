@@ -47,3 +47,74 @@ header nav ul li{
     font-size: 18px;
     font-weight: 400;
 }
+
+/* Banner related styles */
+
+.banner-content{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("/Images/Group\ 13\ \(1\)\ \(1\).png");
+    width: 1170px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-items{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.banner-description {
+    /* width: 676px; */
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 40px;
+}
+.banner-options {
+    display: flex;
+    display: inline-flex;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.banner-options input[type="text"], select{
+
+    color: rgba(19, 19, 24, 0.50);
+    text-align: left;
+    padding-left: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    border: 0;
+}
+.btn-primary{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+}
+.search-table{
+    width: 13px;
+}
