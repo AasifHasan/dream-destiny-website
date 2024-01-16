@@ -72,13 +72,12 @@ header nav ul li{
     text-align: center;
 }
 .banner-description {
-    /* width: 676px; */
     color: #FFF;
     text-align: center;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px; 
     margin-bottom: 40px;
 }
 .banner-options {
@@ -117,4 +116,60 @@ header nav ul li{
 }
 .search-table{
     width: 13px;
+}
+
+/* Main section related styles */
+
+main{
+    margin: 100px 0;
+    padding: 20px;
+}
+
+.tour-desk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+.tour-description {
+    width: 50%;
+}
+.tour-description ul{
+    padding-left: 20px;
+}
+.description-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 18px; 
+}
+.tour-desk-photo {
+    width: 540px;
+    height: 500px;
+    margin-top: 35px;
+    background-position: center;
+    border-radius: 16px;
+    background: url('/Images/Rectangle\ 4.png'), lightgray 50% / cover no-repeat;
+}
+.btn-secondary {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    /* flex-shrink: 0; */
 }
