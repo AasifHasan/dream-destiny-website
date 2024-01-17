@@ -157,7 +157,7 @@ main{
     margin-top: 35px;
     background-position: center;
     border-radius: 16px;
-    background: url('/Images/Rectangle\ 4.png'), lightgray 50% / cover no-repeat;
+    background: url('../Images/Mountain.png'), lightgray 50% / cover no-repeat;
 }
 .btn-secondary {
     color: #FFF;
@@ -218,14 +218,14 @@ main{
     align-items: center;
     justify-content: center;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Maldives.png'), lightgray 50% / cover no-repeat;
 }
 .indonesia{
     display: felx;
     align-items: center;
     justify-content: center;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 8.png'), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Indonesia.png'), lightgray 50% / cover no-repeat;
 }
 .innerline-section {
     position: relative;
@@ -250,21 +250,21 @@ main{
     align-items: center;
     justify-content: center;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/SriLanka.png'), lightgray 50% / cover no-repeat;
 }
 .north-america {
     display: felx;
     align-items: center;
     justify-content: center;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/NorthAmerica.png'), lightgray 50% / cover no-repeat;
 }
 .kashmir {
     display: felx;
     align-items: center;
     justify-content: center;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Kashmir.png'), lightgray 50% / cover no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -281,14 +281,14 @@ main{
     align-items: center;
     justify-content: center;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Bangladesh.png'), lightgray 50% / cover no-repeat;
 }
 .bandarban {
     display: felx;
     align-items: center;
     justify-content: center;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Bandarban.png'), lightgray 50% / cover no-repeat;
 }
 
 /* Hotels and other service related styles */
@@ -458,19 +458,17 @@ main{
 .discounts {
     width: 672px;
     border-radius: 16px;
-    background: url('/Images/Rectangle\ 8\ \(1\).png'), lightgray 50% / cover no-repeat;
+    background: url('../Images/discount.png'), lightgray 50% / cover no-repeat;
 }
 .discount-fare { 
     width: 324px;
     height: 120px;
     border-radius: 16px;
     background: #FF5400;
-    width: 324px;
-    height: 120px;
     transform: rotate(-19.628deg);
     position: relative;
     right: -195px;
-    bottom: -253px;
+    bottom: -245px;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -666,7 +664,7 @@ footer hr{
 /* responsive for mobile related styles */
 
 @media screen and (min-width:992px) and (max-width:1200px) {
-    header nav{
+    header nav {
         /* flex-direction: column; */
     }
     .banner-content{
