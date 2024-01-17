@@ -52,7 +52,7 @@ header nav ul li{
 
 .banner-content{
     border-radius: 16px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("/Images/Group\ 13\ \(1\)\ \(1\).png");
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/banner.png");
     width: 1170px;
     height: 500px;
     margin: auto;
@@ -78,7 +78,7 @@ header nav ul li{
     font-style: normal;
     font-weight: 400;
     line-height: 26px; 
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 .banner-options {
     display: flex;
@@ -172,6 +172,7 @@ main{
     width: 174px;
     height: 52px;
     /* flex-shrink: 0; */
+    border: 0;
 }
 
 /* Destination section related styles */
@@ -409,7 +410,7 @@ main{
     gap: 24px;
 }
 .newsletter-contents {
-    padding: 40px;
+    padding: 20px;
     width: 474px;
     border-radius: 16px;
     border: 1px solid #FF5400;
@@ -434,14 +435,14 @@ main{
     border: 0;
     margin: 24px 0;
 }
-.newsletter-contents input[type="text"], .newsletter-content input [type="email"] {
+.newsletter-contents input[type="text"], .newsletter-contents input[type="email"] {
     display: block;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     color: rgba(19, 19, 24, 0.30);
     font-weight: 400;
     font-size: 16px;
-    padding: 16px;
+    padding: 8px;
     border: 0; 
     margin-bottom: 10px;
     width: 393px;
@@ -449,7 +450,7 @@ main{
    
 }
 .newsletter-contents button { 
-    width: 393px;
+    width: 100%;
     height: 52px;
     /* border-radius: 8px;
     background: rgba(19, 19, 24, 0.05); */
